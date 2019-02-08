@@ -9,7 +9,8 @@
  
     * Download the favorite node version from this site http://nodejs.org/dist/
     * Extract the node-vxx.yy.zz.tar.gz  on your php host and change the name "node"
-    * Use to below instruction   
+    * Upload your node application to your host.
+    * and use to below instruction   
   
 ```rest 
 GET example.com/index.php?server=node/bin/node&app=mqtt/index.js
