@@ -39,7 +39,7 @@ GET  example.com/index.php?listpid
 }
 ```
 
-* ##### Kill app to use pid
+* ##### Kill app
 
 ```rest 
 GET  example.com/index.php?kill=2199255
