@@ -10,10 +10,10 @@ GET example.com/index.php?server=node/bin/node&app=mqtt/index.js
 * result: 
 
 ```json
-{
-"pid": "2199255",
-"output": "starting mqtt application",
-}
+    {
+    "pid": "2199255",
+    "output": "starting mqtt application",
+    }
 ```
 
  * ##### List all PID
@@ -25,11 +25,10 @@ GET  example.com/index.php?listpid
 * result:
 
 ```json
-{
-"pids": [
-"2199255  : node/bin/node mqtt/index.js >log/log1349610073.txt 2>&1 & echo $!"
-]
-}
+    {
+        "pids": [
+        "2199255  : node/bin/node mqtt/index.js >log/log1349610073.txt 2>&1 & echo $!" ]
+    }
 ```
 
 * ##### Kill app to use pid
@@ -41,8 +40,8 @@ GET  example.com/index.php?kill=2199255
 * result:
 
  ```json
-    {
+{
     "pid": "2199255",
     "output": null
-    }
+}
 ```
