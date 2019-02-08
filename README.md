@@ -3,6 +3,8 @@
 #### How to use?
  Get method use for all request.
  
+ For example: 
+ 
  * ##### Run Node app:
  
     * Download the favorite node version from this site http://nodejs.org/dist/
