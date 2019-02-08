@@ -1,4 +1,4 @@
-###Run On Php Shared Host Any App
+### Run On Php Shared Host Any App
 
 #### How to use?
  Get method use for all request.
