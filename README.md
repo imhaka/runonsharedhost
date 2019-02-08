@@ -11,6 +11,9 @@
     * Extract the node-vxx.yy.zz.tar.gz  on your php host and change the name "node"
     * Upload your node application to your host.
     * and use to below instruction   
+    
+    
+### Attention: Do not forget change to application directory permission
   
 ```rest 
 GET example.com/index.php?server=node/bin/node&app=mqtt/index.js
